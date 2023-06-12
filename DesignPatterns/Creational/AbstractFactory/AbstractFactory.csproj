@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\turka\source\repos\Kurumsal\PayCore\OOP\Group 2\DesignPatterns\Creational\FactoryMethod\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>
