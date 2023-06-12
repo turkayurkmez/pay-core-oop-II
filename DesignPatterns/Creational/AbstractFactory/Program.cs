@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using AbstractFactory;
+
 Console.WriteLine("Hello, World!");
 /*
  * Problem:
@@ -13,3 +15,10 @@ Console.WriteLine("Hello, World!");
  *  Bir harita uygulamasında; turisti, coğrafi ya da uydu haritası isteyebilir.... 
  *  
  */
+
+MapCreator<GeoCultureMap> mapCreator = new MapCreator<GeoCultureMap>();
+mapCreator.ShowVisitPoints();
+
+MapCreator<GeoEntertaintmentMap> entMap = new MapCreator<GeoEntertaintmentMap>();
+entMap.ShowVisitPoints();
+
